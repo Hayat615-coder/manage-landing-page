@@ -1,0 +1,63 @@
+<svg width="1400" height="980" viewBox="0 0 1400 980" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1400" height="980" fill="#F7F1EE"/>
+  <circle cx="1230" cy="180" r="340" fill="#F1C7B7" fill-opacity="0.55"/>
+  <circle cx="120" cy="760" r="380" fill="#F1C7B7" fill-opacity="0.55"/>
+
+  <rect x="70" y="40" width="1260" height="70" rx="16" fill="#F7F1EE"/>
+  <rect x="100" y="65" width="110" height="22" rx="8" fill="#1F2640"/>
+  <rect x="330" y="65" width="58" height="18" rx="6" fill="#1F2640" fill-opacity="0.8"/>
+  <rect x="420" y="65" width="70" height="18" rx="6" fill="#1F2640" fill-opacity="0.8"/>
+  <rect x="520" y="65" width="80" height="18" rx="6" fill="#1F2640" fill-opacity="0.8"/>
+  <rect x="628" y="65" width="76" height="18" rx="6" fill="#1F2640" fill-opacity="0.8"/>
+  <rect x="730" y="65" width="88" height="18" rx="6" fill="#1F2640" fill-opacity="0.8"/>
+  <rect x="1160" y="57" width="140" height="38" rx="19" fill="#F26B4C"/>
+  <rect x="1193" y="67" width="72" height="18" rx="9" fill="#FFFFFF" fill-opacity="0.9"/>
+
+  <text x="110" y="250" font-family="Arial, sans-serif" font-size="54" font-weight="700" fill="#1F2640">Bring everyone</text>
+  <text x="110" y="318" font-family="Arial, sans-serif" font-size="54" font-weight="700" fill="#1F2640">together to build</text>
+  <text x="110" y="386" font-family="Arial, sans-serif" font-size="54" font-weight="700" fill="#1F2640">better products.</text>
+  <text x="110" y="460" font-family="Arial, sans-serif" font-size="22" fill="#5E6477">Manage makes it simple for software teams to</text>
+  <text x="110" y="492" font-family="Arial, sans-serif" font-size="22" fill="#5E6477">plan day-to-day tasks while keeping the larger</text>
+  <text x="110" y="524" font-family="Arial, sans-serif" font-size="22" fill="#5E6477">team goals in view.</text>
+  <rect x="110" y="560" width="152" height="46" rx="23" fill="#F26B4C"/>
+  <text x="150" y="590" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#FFFFFF">Get Started</text>
+
+  <rect x="750" y="150" width="460" height="260" rx="20" fill="#F4E7E0"/>
+  <rect x="815" y="210" width="180" height="130" rx="10" fill="#FFF7F5"/>
+  <rect x="824" y="225" width="20" height="100" rx="10" fill="#F26B4C"/>
+  <rect x="854" y="248" width="20" height="77" rx="10" fill="#1E2540"/>
+  <rect x="884" y="235" width="20" height="90" rx="10" fill="#F26B4C"/>
+  <rect x="914" y="255" width="20" height="70" rx="10" fill="#1E2540"/>
+  <rect x="944" y="230" width="20" height="95" rx="10" fill="#F26B4C"/>
+  <rect x="974" y="205" width="20" height="120" rx="10" fill="#1E2540"/>
+
+  <circle cx="1070" cy="275" r="76" fill="#FFFFFF"/>
+  <path d="M1070 213C1027 213 992 247 992 290C992 333 1027 367 1070 367C1113 367 1148 333 1148 290C1148 247 1113 213 1070 213Z" fill="#1E2540"/>
+  <circle cx="1070" cy="290" r="62" fill="#F26B4C"/>
+  <circle cx="1070" cy="290" r="28" fill="#FFFFFF"/>
+
+  <rect x="960" y="430" width="210" height="100" rx="18" fill="#FFFFFF" fill-opacity="0.8"/>
+  <text x="1005" y="486" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#F26B4C">+1.5%</text>
+  <text x="1008" y="518" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#1F2640">89.74%</text>
+
+  <text x="110" y="710" font-family="Arial, sans-serif" font-size="52" font-weight="700" fill="#1F2640">What's different</text>
+  <text x="110" y="770" font-family="Arial, sans-serif" font-size="52" font-weight="700" fill="#1F2640">about Manage?</text>
+  <text x="110" y="830" font-family="Arial, sans-serif" font-size="20" fill="#5E6477">Manage provides all the functionality your team needs,</text>
+  <text x="110" y="860" font-family="Arial, sans-serif" font-size="20" fill="#5E6477">without the complexity. Our software is tailor-made</text>
+  <text x="110" y="890" font-family="Arial, sans-serif" font-size="20" fill="#5E6477">for modern digital product teams.</text>
+
+  <rect x="760" y="700" width="58" height="36" rx="18" fill="#F26B4C"/>
+  <text x="780" y="725" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#FFFFFF">01</text>
+  <text x="840" y="720" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#1F2640">Track company-wide progress</text>
+  <text x="840" y="755" font-family="Arial, sans-serif" font-size="18" fill="#5E6477">See how your day-to-day tasks fit into the wider vision.</text>
+
+  <rect x="760" y="790" width="58" height="36" rx="18" fill="#F26B4C"/>
+  <text x="780" y="815" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#FFFFFF">02</text>
+  <text x="840" y="810" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#1F2640">Advanced built-in reports</text>
+  <text x="840" y="845" font-family="Arial, sans-serif" font-size="18" fill="#5E6477">Set internal delivery estimates and track progress.</text>
+
+  <rect x="760" y="880" width="58" height="36" rx="18" fill="#F26B4C"/>
+  <text x="780" y="905" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#FFFFFF">03</text>
+  <text x="840" y="900" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#1F2640">Everything you need in one place</text>
+  <text x="840" y="935" font-family="Arial, sans-serif" font-size="18" fill="#5E6477">Stop jumping between tools and keep your work in sync.</text>
+</svg>

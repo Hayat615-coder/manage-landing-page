@@ -1,8 +1,3 @@
-// const type Info = {
-//   id: "number",
-//   carrers: "string",
-//   definition: "string",
-// };
 const Info1 = [
   {
     id: 0o1,
