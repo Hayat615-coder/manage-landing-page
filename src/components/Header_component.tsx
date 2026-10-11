@@ -2,22 +2,25 @@ import logo from "../assets/logo.svg";
 import icon_hamburger from "../assets/icon-hamburger.svg";
 import icon_close from "../assets/icon-close.svg";
 import { useState } from "react";
+
 const Header_component = () => {
   const [isOpen, setIsOpen] = useState(false);
   const closeMenu = () => {
     setIsOpen(false);
   };
+
   return (
     <>
       <header
         id="home"
-        className="w-full flex flex-row items-center justfy-between gap-40 md:gap-36 m-14 md:mx-24"
+        className="w-full flex flex-row items-center justify-between px-6 py-8 md:px-24 relative z-50"
       >
         <img src={logo} alt="logo" />
+
         <nav className="hidden md:flex justify-evenly gap-6">
           <a
             href="#pricing"
-            className="text-[hsl(233,12%,13%)] hover:text-[hsl(228,39%,23%)] "
+            className="text-[hsl(233,12%,13%)] hover:text-[hsl(228,39%,23%)]"
           >
             Pricing
           </a>
@@ -37,7 +40,7 @@ const Header_component = () => {
             href="#careers"
             className="text-[hsl(233,12%,13%)] hover:text-[hsl(228,39%,23%)]"
           >
-            Carrers
+            Careers
           </a>
           <a
             href="#community"
@@ -46,11 +49,12 @@ const Header_component = () => {
             Community
           </a>
         </nav>
-        <nav>
+
+        <div className="md:hidden">
           <button
             type="button"
             onClick={() => setIsOpen(!isOpen)}
-            className="md:hidden"
+            className="relative z-50 p-2 cursor-pointer"
             aria-label={
               isOpen ? "Close navigation menu" : "Open navigation menu"
             }
@@ -62,33 +66,63 @@ const Header_component = () => {
               <img src={icon_hamburger} alt="" />
             )}
           </button>
-          {isOpen && (
-            <div className="md:hidden flex flex-col gap-y-2">
-              <a href="#pricing" onClick={closeMenu}>
-                Pricing
-              </a>
-              <a href="#product" onClick={closeMenu}>
-                Product
-              </a>
-              <a href="#about" onClick={closeMenu}>
-                About Us
-              </a>
-              <a href="#careers" onClick={closeMenu}>
-                Careers
-              </a>
-              <a href="#community" onClick={closeMenu}>
-                Community
-              </a>
-            </div>
-          )}
-        </nav>
+        </div>
+
         <button
           type="button"
-          className="hidden md:flex border rounded-full bg-[hsl(12,88%,59%)] text-white p-2 cursor-pointer hover:shadow shadow-[0px,2px,0,2px]"
+          className="hidden md:flex border rounded-full bg-[hsl(12,88%,59%)] text-white px-6 py-3 cursor-pointer hover:opacity-90 shadow-md"
         >
           Get Started
         </button>
       </header>
+
+      {isOpen && (
+        <div
+          onClick={closeMenu}
+          className="fixed inset-0 z-40 bg-gradient-to-b from-transparent to-black/60 md:hidden"
+          aria-hidden="true"
+        />
+      )}
+
+      {isOpen && (
+        <nav className="fixed top-24 left-6 right-6 z-50 bg-white py-10 rounded-md shadow-2xl flex flex-col items-center gap-y-6 md:hidden font-bold text-[hsl(228,39%,23%)]">
+          <a
+            href="#pricing"
+            onClick={closeMenu}
+            className="hover:text-slate-400 text-lg"
+          >
+            Pricing
+          </a>
+          <a
+            href="#product"
+            onClick={closeMenu}
+            className="hover:text-slate-400 text-lg"
+          >
+            Product
+          </a>
+          <a
+            href="#about"
+            onClick={closeMenu}
+            className="hover:text-slate-400 text-lg"
+          >
+            About Us
+          </a>
+          <a
+            href="#careers"
+            onClick={closeMenu}
+            className="hover:text-slate-400 text-lg"
+          >
+            Careers
+          </a>
+          <a
+            href="#community"
+            onClick={closeMenu}
+            className="hover:text-slate-400 text-lg"
+          >
+            Community
+          </a>
+        </nav>
+      )}
     </>
   );
 };
